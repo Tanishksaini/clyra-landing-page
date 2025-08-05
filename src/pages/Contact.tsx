@@ -181,19 +181,19 @@ const Contact = () => {
                   {
                     icon: Mail,
                     title: 'Email Us',
-                    content: 'contact@clyra.com',
+                    content: 'info@clyra.com',
                     description: 'Send us an email anytime'
                   },
                   {
                     icon: Phone,
                     title: 'Call Us',
-                    content: '+1 (555) 123-4567',
+                    content: '+91 9549471019',
                     description: 'Mon-Fri from 8am to 5pm EST'
                   },
                   {
                     icon: MapPin,
                     title: 'Visit Us',
-                    content: '123 Business Ave, Suite 100\nNew York, NY 10001',
+                    content: 'Jaipur Rajasthan',
                     description: 'Our headquarters'
                   },
                   {

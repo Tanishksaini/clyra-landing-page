@@ -223,7 +223,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             {[
-              { number: '2019', label: 'Founded' },
+              { number: '2025', label: 'Founded' },
               { number: '500+', label: 'Happy Clients' },
               { number: '10K+', label: 'Screens Managed' },
               { number: '50+', label: 'Countries' }

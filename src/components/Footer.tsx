@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Monitor, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-
+import clyra from '../assets/clyra.png';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
@@ -16,13 +16,17 @@ const Footer = () => {
             className="col-span-1 md:col-span-2"
           >
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-[#679F9F] rounded-lg flex items-center justify-center">
-                <Monitor className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold text-[#679F9F]">Clyra</span>
-            </div>
+  <div className="bg-white p-1 rounded-lg shadow-lg">
+    <img 
+      src={clyra} 
+      alt="Clyra Logo" 
+      className="h-16 md:h-20 object-contain"
+    />
+  </div>
+</div>
+
             <p className="text-gray-400 mb-6 max-w-md">
-              Transform your digital signage experience with our powerful, intuitive CMS platform. 
+              Transform your digital signage experience with our powerful, intuitive CMS platform.
               Manage, schedule, and deploy content across all your screens effortlessly.
             </p>
             <div className="flex space-x-4">
@@ -98,15 +102,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-[#679F9F]" />
-                <span className="text-gray-400">contact@clyra.com</span>
+                <span className="text-gray-400">info@clyra.com</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-[#679F9F]" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 9549471019</span>
               </li>
               <li className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-[#679F9F]" />
-                <span className="text-gray-400">New York, NY 10001</span>
+                <span className="text-gray-400">Jaipur,Rajasthan</span>
               </li>
             </ul>
           </motion.div>
