@@ -229,7 +229,7 @@ const Contact = () => {
                 </p>
                 <div className="space-y-3">
                   <motion.a
-                    href="/login"
+                    href="/cms/login"
                     className="block bg-white text-[#679F9F] px-4 py-2 rounded-lg font-semibold text-center hover:bg-gray-100 transition-colors duration-200"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
