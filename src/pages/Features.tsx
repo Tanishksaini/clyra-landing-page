@@ -226,7 +226,7 @@ const Features = () => {
               </p>
               <div className="space-y-3">
                 <motion.a
-                  href="/cms/login"
+                  href="https://cms.clyra.net.in/login"
                   className="block bg-white text-[#679F9F] px-6 py-3 rounded-lg font-semibold text-center hover:bg-gray-100 transition-colors duration-200"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

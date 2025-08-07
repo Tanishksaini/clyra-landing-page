@@ -54,7 +54,7 @@ const Home = () => {
               variants={itemVariants}
             >
               <motion.a
-                href="/cms/login"
+                href="https://cms.clyra.net.in/login"
                 className="bg-[#679F9F] hover:bg-[#5a8a8a] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 flex items-center gap-2 group shadow-lg"
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
                 whileTap={{ scale: 0.95 }}
@@ -256,7 +256,7 @@ const Home = () => {
               Join thousands of businesses already using Clyra to manage their digital displays more effectively.
             </p>
             <motion.a
-              href="/cms/login"
+              href="https://cms.clyra.net.in/login"
               className="bg-white text-[#679F9F] hover:bg-gray-100 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 inline-flex items-center gap-2 group shadow-lg"
               whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
               whileTap={{ scale: 0.95 }}

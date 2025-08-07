@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  landing-page:
+    build: .
+    container_name: clyra_landing
+    ports:
+      - "3000:80" # local test ke liye
+    networks:
+      - clyra_net
+
+networks:
+  clyra_net:
+    external: true
